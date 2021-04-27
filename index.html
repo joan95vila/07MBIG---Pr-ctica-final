@@ -1,0 +1,289 @@
+<div id="body">
+  <div id="app"></div>
+  <div id="credentials">
+    <b>Nombre:</b> Joan <br>
+    <b>Apellidos:</b> Vilà Viñuela <br>
+    <b>Email:</b> jvilavinuela@alumnos.viu.es <br>
+    <b>Github:</b> <br>
+    <b>Stackblitz:</b> <br>
+  </div>
+
+  <div id="note">
+    <p style="color:red; margin-top:20px;">
+      NOTA IMPORTANTE: Algunas gráficas puede que no se vean del todo bien, para ello se debe de clicar en ellas y de
+      esta forma se ampliaran para poder verse correctamente, al mismo tiempo, se recomienda tener el navegador en modo
+      de día (que el color no sea oscuro, modo noche), de otra forma puede que tanto la leyenda como los ejes de algunas
+      graficas no se puedan apreciar correctamente.
+    </p>
+  </div>
+
+  <div id="introduction">
+    <h1>ELECCIÓN DEL DATASET Y EL PORQUE DE ELLO</h1>
+    <p>
+      En primer lugar, comentar que el dataset elegido ha sido uno relacionado con la tasa de suicidios anuales a lo
+      largo de los últimos años en diversos países del mundo. En dicho dataset se separan las tasas de suicidios en
+      función de diversos ítems, tales como, los rangos de edades, sexo y año.
+    </p>
+
+    <p>
+      Este tema me pareció muy interesante escogerlo ya que los suicidios me parecen un factor muy importante y
+      relevante a tener en cuenta dentro de una sociedad. Al mismo tiempo, creo que en los últimos años estos han ido
+      incrementando su número de forma significativa, sobre todo en los jóvenes, grupo de edad en el que, según mi
+      intuición, pudiera ser el que más afectado hubiera estado siempre o al menos a fecha de hoy. Así mismo, siempre he
+      escuchado decir que la tasa de suicidios entre hombres y mujeres ha estado muy desbalanceada, estando los hombres
+      en la peor parte, la de mayores suicidios. Por otra parte, también estaría bien ver si la pobreza del país afecta
+      o no en la tasa de suicidio.
+    </p>
+
+    <h2>Objetivos, mensaje y público objetivo</h2>
+    <p>
+      En conclusión, una buena forma de empezar a responder dichas preguntas para tener una primera aproximación o idea
+      del problema, podría ser la elaboración de varios gráficos en los que, a nivel visual, uno de los sentidos más
+      importantes para la obtención de información, pudieran ayudar a responderlas. Así pues, ya tenemos los objetivos
+      marcados para la elaboración de dichas gráficas, cuya funcionalidad principal será precisamente la de contestar a
+      las preguntas iniciales. Los objetivos quedarán establecidos como los siguientes:
+    <ul>
+      <li><b>Objetivo 1:</b> Ver si en los últimos años ha habido un incremento en la tasa de suicidios a nivel global.
+      </li>
+
+      <li><b>Objetivo 2:</b> Ver si la pobreza del país afecta a la tasa de suicidios. </li>
+
+      <li><b>Objetivo 3:</b> Confirmar si es verdad que los hombres son más propensos a suicidarse que las mujeres.
+      </li>
+
+      <li><b>Objetivo 4:</b> Ver que grupo de edad es el más vulnerable en relación a suicidios y si es igual en todos
+        los países. </li>
+    </ul>
+    </p>
+
+    <p>
+      Por tanto, podemos ver que el público objetivo para dichos gráficos será la sociedad en general, con particular
+      interés en los gobiernos, sobre todo aquellos que tengan una tasa de suicidio elevada, pues, los gobiernos,
+      probablemente sean las organizaciones que más poder tengan para afrontar tal problema y, por ende, poder aplicar
+      soluciones para remediarlo. Con las gráficas podremos ver, tanto nosotros como nuestro público objetivo, cuáles
+      son las regiones geográficas (países), grupos de edad y género en los que se tiene que prestar una atención
+      especial, en caso de que hubiese diferencias.
+    </p>
+
+    <p>
+      Finalmente, vemos que el mensaje a transmitir es claro, pues, no seria otro que el de generar una preocupación por
+      el posible desbalanceo en la tasa de los suicidios que pudiera ver en alguna rama de las mencionadas en los
+      objetivos, con la clara intención de que dicho interés sea el activador necesario de la sociedad, para que esta
+      empieza a tomar conciencia real y actué en consecuencia para encontrar una solución, ya sea mediante la
+      realización de campañas o un cambio en la sociedad como tal, sobretodo en la forma de pensar y actuar en todos los
+      ámbitos de la vida que pudiera llevar a una persona a inducirse la muerte.
+    </p>
+  </div>
+
+
+  <div id="plots">
+    <h1> ELABORACIÓN Y ELECCIÓN DE LAS GRÁFICAS </h1>
+    <p>
+      Una vez visto cuales son nuestros objetivos, público y mensaje, aquello que se quiere transmitir o hacer llegar a
+      el público, ya podemos empezar a pensar y seleccionar aquellas gráficas que nos vendrían mejor emplear para poder
+      plasmar nuestro mensaje y/o cumplir los objetivos.
+    </p>
+
+    <p>
+      Para ello, iremos uno a uno, objetivo a objetivo, así pues, para cumplir con el primero de todos, “Ver si la
+      pobreza del país afecta a la tasa de suicidios”, posiblemente una de las mejores gráficas para mostrarlo seria un
+      gráfico de burbujas empaquetadas, donde se utilizaría la propiedad del tamaño para representar la tasa de suicidio
+      por país, mientras que, por el otro lado, la propiedad del color se utilizaría para representar si un país es
+      pobre o no. Se ha decidido emplear las propiedades en este orden y no otro ya que el tamaño es mejor emplearlo
+      para comparar la composición de las variables numéricas, mientras que el color realiza mejor la función para
+      separar distintas categorías, en este caso el nivel de pobreza, agrupando los niveles de pobreza bajo con el mismo
+      color pero con tonalidad diferente y los niveles de pobreza elevados lo mismo pero con otro color, esto nos
+      ayudará a identificar a nivel visual una segunda separación entre realmente los países del primer mundo y/o
+      “segundo”, con los del tercer mundo e incluso “cuarto”, en otras palabras los ricos o en evolución a ello respecto
+      de los pobres.
+    </p>
+
+    <a
+      href="https://ibb.co/7QH0qLH"><img src="https://i.ibb.co/ZS3b073/plot-1-howmade.png" alt="plot-1-howmade" border="0"></a>
+    <p>
+      Como resultado, podemos observar que, para dicho objetivo, aparentemente podemos concluir que no parece afectar
+      del todo, pues como vemos, los tamaños, o lo que es lo mismo, la tasa de suicidio, parece variar de forma bastante
+      similar en todos los niveles de pobreza, no obstante, para tener una comparativa entre niveles más acurada, no tan
+      general como nos podría dar el tamaño, emplearemos un segundo gráfico nombrado <i>“treemap”</i>, el cual, nos
+      permitirá detectar aún más rápido y de forma más precisa si hay algún país que destaque sobre los otros, y
+      sobretodo nuestro objetivo, si hay diferencias en la tasa de suicidios entre países con diferente nivel de
+      pobreza. Pues en este caso, se ha decidido juntar cuatro gráficas del mismo tipo, una por cada nivel de pobreza
+      diferente, utilizando las propiedades de la tonalidad y tamaño par que mutuamente se ayuden para dejar claro el
+      valor en la tasa de suicidio, donde sobretodo la propiedad de la tonalidad viene muy bien para las comparaciones
+      entre valores.
+    </p>
+
+    <a
+      href="https://ibb.co/ZcgwB8C"><img src="https://i.ibb.co/TP0n485/plot-2-howmade.png" alt="plot-2-howmade" border="0"></a>
+
+    <p>
+      En este caso, podemos observar que, efectivamente, en cualquier grupo de pobreza más o menos se sigue la misma
+      distribución en tasa de suicidios, tal y como ya habíamos observado en el gráfico anterior, teniendo la mayoría de
+      los países una tasa baja y algunos de ellos con una tasa ligeramente más elevada y/o destacada, donde en este
+      caso, si que podemos observar, a diferencia de la anterior gráfica, que en los países más ricos dicha diferencia
+      no es muy elevada, mientras que en la de los pobres sí que presentan un aumento considerable, no obstante, donde
+      si que vemos un aumento significativo y preocupante son los países con un nivel de riqueza medio, siendo estos,
+      tal y como también podemos observar el grupo donde más países hay. Así pues, ya sabemos que países deberían de
+      tomar más preocupación en el tema para intentar remediarlo.
+    </p>
+
+    <p>
+      Finalmente, y como de forma adicional a dicho objetivo, a continuación representaremos en un mapamundi la
+      distribución geográfica de dichos países por tal de ver si realmente hay ciertas regiones del planeta más
+      propensas al suicidio que otras, donde como podemos observar a continuación y de forma curiosa, es que como norma
+      general podríamos decir que si, siendo los que más los países donde se encuentran situados en la antigua URSS y
+      gran parte de la asía oriental, de tal forma que nos da un claro aviso de que el problema podría ser cultural.
+    </p>
+
+    <a
+      href="https://ibb.co/wMbLT37"><img src="https://i.ibb.co/Wgd3Qq0/plot-3-howmade.png" alt="plot-3-howmade" border="0"></a>
+
+    <p>
+      Nota: Para medir el nivel de pobreza de cada país lo ideal hubiera sido emplear el HDI (índice de desarrollo
+      humano) en lugar del GDP por Cápita, pues tener un GDP bajo en comparación a otro país no quiere decir que la
+      gente de dicho país sea pobre dentro de él, así como dada la inflación anual monetaria, hace que un GDP de un
+      mismo país no se puede comparar con el que tenía el mismo hace 20 años atrás, no obstante, dado que no se disponía
+      de tal información en todos los países, se ha decidido emplear la variable de GDP por Cápita de cada país, donde
+      mediante un Script de Python, se ha separado en cuatro categorías diferentes en función de su valor, quedando las
+      categorías definidas de la siguiente forma:
+    <ul>
+      <li><b>MUY BAJO (VERY LOW):</b> Un GDP menor que 6000.000$ </li>
+      <li><b>BAJO (LOW):</b> Un GDP entre 6.000$ y 12.000$ </li>
+      <li><b>MEDIO (MEDIUM):</b> Un GDP entre 12.000$ y 36.000$ </li>
+      <li><b>ALTO (HIGH):</b> Un GDP mayor a 36.000$ </li>
+    </ul>
+    Al mismo tiempo, dado que en el dataset tampoco se tenían todos los años de todos los países entre los años 1985 y
+    2016, se ha decidido elaborar dichos gráficos con la información del año 2009, pues es un año donde se tiene casi
+    toda la información de todos los países y este tampoco esta muy alejado del año actual, el 2021, por lo que la
+    inflación no debería de haber subido demasiado, así como la tasa de suicidios tampoco debe poder haber variado
+    mucho.
+    </p>
+
+    <p>
+      A continuación, para cumplir con los objetivos que faltan, se emplearán dos tipos de gráficas distintas, en ambas,
+      se podrá observar la evolución de estos a lo largo del tiempo y la relación entre hombres y mujeres, es decir, se
+      cumplirá con los objetivos 1 y 3, mientras que el objetivo 4 solo se podrá cumplir en la última gráfica.
+    </p>
+
+    <p>
+      Empezando por la primera, se ha decidido emplear dos gráficas del mismo tipo, pero representando la información de
+      manera ligeramente distinta por tal de potenciar el tercer objetivo, el de comprobar si realmente hay más hombres
+      que mujeres en los suicidios. Así pues, en la siguiente gráfica, realmente siendo dos, una al lado de otra, se
+      podrá observar el posible incremento de diferentes países a lo largo de los años diferenciando entre hombres y
+      mujeres.
+    </p>
+
+    <a href="https://ibb.co/bRRdN5d"><img src="https://i.ibb.co/G33PCQP/plot-total.png" alt="plot-total" border="0"></a>
+
+    <p>
+      Como vemos, efectivamente, podemos comprobar que la hipótesis del objetivo 3 era verdadera, mientras que el
+      objetivo 1, “Ver si en los últimos años ha habido un incremento en la tasa de suicidios a nivel global”, vemos que
+      no es del todo cierto, pues si bien es cierto que en la media global sí que hay una tendencia muy ligera en subir
+      la tasa de los hombres, vemos que en general no hay un patrón definido entre países, pues uno puede subir,
+      mientras que otro puede bajar, probablemente sea pues, por guerras civiles, crisis o cualquier índole que pudiera
+      afectar a un solo país, para ello se debería de mirar que ha pasado en cada país en cada periodo.
+    </p>
+
+    <p>
+      Así mismo, como vemos solo se han elegido algunos países determinados, más concretamente solo uno de cada
+      continente como posible representación de este, aunque lo ideal hubiera sido hacer una media de cada continente y
+      representar está en lugar de un país represéntate, no obstante, por falta de tiempo no se ha podido hacer.
+      Adicionalmente, también se ha decidido añadir 3 países adicionales, España, nuestro país, con el fin de poder
+      compararlos con los otros, y Rusia junto con Corea del sur, pues ambos países como vimos en las anteriores
+      gráficas son uno de los que tienen mayor tasa de suicidio del mundo. No se han representado más países ya que en
+      ser un gráfico de líneas no seria bueno tener a muchos más, de hecho, ahora mismo ya estaríamos al limite máximo,
+      pues de otra forma dada la naturaleza del gráfico, este dejaría de ser comprensible y comparable, que es
+      precisamente una de sus funcionalidades principales en este caso, junto con la de ver la evolución de cada país en
+      el tiempo.
+    </p>
+
+    <p>
+      Como mención especial, comentar que tanto España como la media mundial, se ha empleado un diseño de línea
+      diferente, así como un grosor más grueso que el otro, por tal de que sea más fácil localizar dichos “países” y
+      poder comprarlos mejor con la resta, pues para nuestro caso serían los dos más importantes. En este caso se
+      utilizaría pues la propiedad de la textura para destacar sobre los demás.
+    </p>
+
+    <p>
+      A continuación, para reforzar la confirmación de la hipótesis del objetivo 3, se ha decidido mostrar la misma
+      gráfica solo con España, por tal de que está vez la diferencia entre hombres y mujeres no quede tan eclipsada por
+      el valor diferente entre países, así como también, para poder diferenciar bien que países son los que tienen una
+      diferencia más elevada, se ha decidido representar la informaciónn ligeramente distinta mediante la utilización de
+      otra gráfica casi idéntica, pero está vez cambiando la variable del eje vertical (eje y), por el factor resultante
+      de dividir el ratio de suicidios de hombres entre el de mujeres, donde, en caso de que la diferencia entre hombres
+      y mujeres fuera nula, dicha gráfica nos debería de dar una línia recta en y=1, que como veremos en la gráfica y ya
+      hemos visto en las anteriores el resultado obtenido es muy diferente.
+    </p>
+
+    <a href="https://ibb.co/KGpJWV1"><img src="https://i.ibb.co/n0NFjQW/plot-esp.png" alt="plot-esp" border="0"></a>
+
+    <a href="https://imgbb.com/"><img src="https://i.ibb.co/GT6dKNz/plot-factor.png" alt="plot-factor" border="0"></a>
+
+    <p>
+      Finalmente, y ya para acabar, nos falta cumplir con el último objetivo, el 4, “Ver que grupo de
+      edad es el más vulnerable en relación a suicidios y si es igual en todos los países”, donde para ello, la gráfica
+      más
+      conveniente que se ha creído utilizar, es otra vez una gráfica de burbujas, aunque está vez siendo un poco
+      especial, pues a diferencia de la primera que empleamos, esta tendrá dos ejes de coordenadas, siendo la coordenada
+      x la representación de los años, que nos dará la evaluación en el tiempo (objetivo 1), y la coordenada y la que
+      nos
+      indicará el grupo de edad en el que nos encontramos (objetivo 4), donde por último, la propiedad del tamaño
+      continuará representando la tasa de suicidios y el color en este caso se empelará para separar la tasa de hombres
+      con la de mujeres para poder cumplir o reafirmar de otra forma el objetivo 3.
+    </p>
+
+    <p>
+      Además, se repetirá dicha gráfica por cada uno de los países seleccionados ya en las anteriores gráficas para
+      después poder juntarlas y comprar a nivel general si en todos ellos se sigue o no el mismo patrón en lo que
+      respecta al objetivo principal para dicha gráfica el 4, ver si hay algún grupo de edad más vulnerable que otro,
+      donde sorprendentemente y en contra de lo que creía al principio a resultado ser, tal y como veremos a
+      continuación
+      en la gráfica, los jóvenes no son el grupo más vulnerable sino más bien el que menos, pues, curiosamente la
+      tasa de suicidios aumenta proporcionalmente con la edad, así pues, de nuevo ya sabemos a qué grupo deberíamos de
+      centrar más nuestros esfuerzos para evitar los suicidios.
+    </p>
+
+    <p>
+      Como podemos observar, adicionalmente a lo que acabamos de decir, también podemos reafirmar, con una
+      representación gráfica distinta, lo que ya habiamos visto con las otras gráficas, es decir, casi todos los otros
+      objetivos, tales como, que casi no se ha incrementado la tasa de suicidios a lo largo del tiempo y que se suicidan
+      más hombres que mujeres, por tanto, como podemos ver, es posiblemente la gráfica que más información nos aportaria
+      de una, pues en ella realmente se pueden cumplir/responder hasta 3 objetivos diferentes de los que nos habiamos
+      marcado inicialmente. Como dato extra a informar de dicho gráfico es que como podemos ver cada país tiene su
+      propia leyenda y sobretodo el valor del tamaño varia en cada una de ellas, con lo que lo ideal seria tener solo
+      una leyenda y sin variar el valor del tamaño en cada país, sin embargo tras muchos intentos no se ha podido
+      lograr, no obstante, para este, el objetivo prinipal que se busca en dicha gráfica esto no nos afecta, pues
+      igualmente se pueden ver los patrones y tendencias a lo largo del tiempo por cada país y rango de edades.
+    </p>
+
+    <a href="https://ibb.co/9N69sK6"><img src="https://i.ibb.co/yXtnWvt/plot-ages.png" alt="plot-ages" border="0"></a>
+
+    <h1>CONCLUSIONES Y ANÁLISIS FINAL</h1>
+    <p>
+      Como conclusión general, podemos ver que es muy importante representar la información gráficamente, pues como ha
+      pasado en la última grafica, a veces podemos encontrarnos con resultados inesperados. Así mismo, también se ha
+      podido observar que el orden de ir estableciendo los gráficos es importante ya que estos nos pueden ir guiando
+      hacia la respuesta de nuestras preguntas o incluso crearnos de nuevas. En cuanto respecta a la interactividad en
+      algunos gráficos empleados puede venir muy bien, pues por ejemplo, en los primeros gráficos que vimos, todos ellos
+      están
+      enlazados dentro de Tableau, de tal forma que haciendo clic en un país, los otros solo mostrarían la información
+      de
+      dicho país, eliminando así la necesidad de crear nuevos gráficos como ha pasado por ejemplo en la gráfica en la
+      que se mostraba la evolución de todos los países a lo largo del tiempo, en el que para que los demás países no
+      estorbaran a la comparación de los valores de uno que los tiene más pequeños, como por ejemplo, España, se tubo
+      que crear uno nuevo para dicho país y así poder compara los hombrees y mujeres de este de una forma más precisa.
+    </p>
+
+    <h2>Tecnologías empleadas</h2>
+    <p>
+      Para concluir, y tal como se ha podido observar, decir que las tecnologías empleadas para la elaboración de las
+      gráficas han sido Tableau y la librería de Seaborn de Python, pues la primera se ha escogido básicamente por su
+      gran facilidad de uso y generación rápida de diversas gráficas, así como la opción de poder enlazarlas e
+      interactuar entre ellas, mineras que Seaborn se ha elegido por la facilidad de utilizar funciones ya creadas
+      dentro de Python para poder crear ciertos gráficos, aunque a diferencia de Tableau, en este caso, en estar en un
+      lenguaje de programación dicha tecnología nos ha brindado la oportunidad de poder personalizar los datos y las
+      graficas un poco más a nuestra medida, tal y como se ha podido observar sobretodo en el último grafico de todos.
+    </p>
+
+  </div>
+</div>
